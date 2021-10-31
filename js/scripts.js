@@ -1,11 +1,12 @@
 $(document).ready(function() {
+  $("#formOne").submit(function() {
+    $(".person1").append("blah blah");
+    $(".person2").append("blah blah");
+    $(".animal").append("blah blah");
+    $(".exclamation").append("blah blah");
+    $(".verb").append("blah blah");
+    $(".noun").append("blah blah");
 
-  $("div#click-one").click(function() {
-    const whatToSay = "Hello!";
-    alert(whatToSay);
-  });
-
-  $("div#click-two").click(function() {
-    alert(whatToSay);
+    $("#story").show();
   });
 });
